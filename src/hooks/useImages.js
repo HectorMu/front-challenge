@@ -20,7 +20,6 @@ const useImages = () => {
       setIsLoading(true);
       const response = await fetch(IMAGES_URL);
       const data = await response.json();
-      console.log(data);
       setImages(data);
     } catch (error) {
       console.error(error);

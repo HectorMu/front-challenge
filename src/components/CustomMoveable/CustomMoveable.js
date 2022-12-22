@@ -75,7 +75,6 @@ const CustomMoveable = ({
   };
 
   const onResizeEnd = async (e) => {
-    console.log(e);
     let newWidth = e.lastEvent?.width;
     let newHeight = e.lastEvent?.height;
 
@@ -90,6 +89,7 @@ const CustomMoveable = ({
     const { lastEvent } = e;
     const { drag } = lastEvent;
     const { beforeTranslate } = drag;
+    console.log(drag);
 
     const absoluteTop = top + beforeTranslate[1];
     const absoluteLeft = left + beforeTranslate[0];
