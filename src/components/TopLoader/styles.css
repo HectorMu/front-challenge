@@ -1,0 +1,18 @@
+.loader {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.loader h3 {
+  font-size: 30px;
+  color: white;
+}
