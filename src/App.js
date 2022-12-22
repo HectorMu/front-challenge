@@ -24,7 +24,7 @@ const App = () => {
         <button onClick={() => addMoveable(getRandomImage())}>
           Add new Moveable
         </button>
-        <p>Info: Delete a Moveable by pressing the Delete</p>
+        <p>Info: Delete a Moveable by pressing the Delete Key</p>
         <p>Current moveables: {moveableComponents.length}</p>
       </div>
       <div
